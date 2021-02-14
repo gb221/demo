@@ -37,7 +37,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexpo
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst nav_1 = __webpack_require__(/*! ../components/nav */ \"../../../demo/src/components/nav.ts\");\nconst $ = __webpack_require__(/*! jquery */ \"../../../demo/node_modules/jquery/dist/jquery.js\");\nconsole.log('in home.ts');\nconsole.log('this worked');\nlet heading = document.getElementsByClassName('heading-jumbo');\nconsole.log(heading);\nconsole.log('before');\nconsole.log($('.heading-jumbo'));\nconsole.log('past');\nnav_1.hideNav();\n\n\n//# sourceURL=webpack:///../../../demo/src/pages/home.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst nav_1 = __webpack_require__(/*! ../components/nav */ \"../../../demo/src/components/nav.ts\");\nconst $ = __webpack_require__(/*! jquery */ \"../../../demo/node_modules/jquery/dist/jquery.js\");\nconsole.log('in home.ts');\nconsole.log('this worked');\nconsole.log('before');\nlet heading = document.getElementsByClassName('heading-jumbo');\nconsole.log(heading);\nconsole.log($('.heading-jumbo'));\nconsole.log('past');\nnav_1.hideNav();\n\n\n//# sourceURL=webpack:///../../../demo/src/pages/home.ts?");
 
 /***/ })
 
