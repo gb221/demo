@@ -37,7 +37,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_feed__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/feed */ \"../../../demo/src/components/feed.js\");\n\n\nconsole.log('in about.js')\n\n;(0,_components_feed__WEBPACK_IMPORTED_MODULE_0__.createFeed)()\n\n//# sourceURL=webpack:///../../../demo/src/pages/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_feed__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/feed */ \"../../../demo/src/components/feed.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! jquery */ \"../../../demo/node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\njquery__WEBPACK_IMPORTED_MODULE_1___default()('.hi-there-heading').on('hover', (e) => {\n    jquery__WEBPACK_IMPORTED_MODULE_1___default()(e.currentTarget).css('color', '#ffffff')\n})\n\nconsole.log('in about.js')\n\n;(0,_components_feed__WEBPACK_IMPORTED_MODULE_0__.createFeed)()\n\n//# sourceURL=webpack:///../../../demo/src/pages/about.js?");
 
 /***/ })
 
